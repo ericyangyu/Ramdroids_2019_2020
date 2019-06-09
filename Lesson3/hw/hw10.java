@@ -9,11 +9,11 @@
     *****
 
 
-		should be printed if we want to print a 3x5 rectangle.
+    should be printed if we want to print a 3x5 rectangle.
 
-		Note: if you already know what methods are, do not create any helper
-		methods to draw your objects. You can only code inside the scope of
-		the "main" function
+    Note: if you already know what methods are, do not create any helper
+    methods to draw your objects. You can only code inside the scope of
+    the "main" function
  */
 
 public class hw10 {

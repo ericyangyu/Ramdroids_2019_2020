@@ -9,24 +9,24 @@
     *****
 
 
-		should be printed if we want to print a triangle of height 3.
+	should be printed if we want to print a triangle of height 3.
 
-		Note: if you already know what methods are, do not create any helper
-		methods to draw your objects. You can only code inside the scope of
-		the "main" function
+	Note: if you already know what methods are, do not create any helper
+	methods to draw your objects. You can only code inside the scope of
+	the "main" function
 
-		Hint: You want to implement this function by doing something similar to
-		how you draw a square. A triangle really just looks like a square, except
-		any space that should be white space instead of "*" is just replaced with
-		a literal space character. For example, the triangle example we see above
-		can also be represented as:
+	Hint: You want to implement this function by doing something similar to
+	how you draw a square. A triangle really just looks like a square, except
+	any space that should be white space instead of "*" is just replaced with
+	a literal space character. For example, the triangle example we see above
+	can also be represented as:
 
-		ss*ss
-		s***s
-		*****
+	ss*ss
+	s***s
+	*****
 
-		assuming the s's represent spaces. Can you figure out how to do that? 
-		You may need to do some math!
+	assuming the s's represent spaces. Can you figure out how to do that? 
+	You may need to do some math!
  */
 
 public class hw11 {
