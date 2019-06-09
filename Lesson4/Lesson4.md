@@ -137,7 +137,7 @@ you can still call them within your functions.
 
 Here's an example of a global variable:
 ```
-int x = 5;
+public int x = 5;
 
 void squareNumber() {
     x = x * x;
