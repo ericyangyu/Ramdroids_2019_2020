@@ -77,7 +77,8 @@ with Strings and Strings only.
  * ```+```: operator to add numbers.
  * ```-```: operator to subtract numbers.
  * ```*```: operator to multiply numbers.
- * ```/```: operator to divide numbers.
+ * ```/```: operator to divide numbers. If we are dividing two ints, then it performs integer division,
+            which basically rounds the number down to the nearest whole number. (i.e. 3/2 = 1 )
 
  In action, operators are crucial to coding:
  ```
