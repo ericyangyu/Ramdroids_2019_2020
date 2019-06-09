@@ -69,7 +69,7 @@ with Strings and Strings only.
  // x. We use + to add. Normally, adding a String to an int doesn't make sense, but the computer is
  // smart enough to realize that and convert the int variable "x" into a type String.
  System.out.println( "The value of x is " + x ); // Will print "The value of x is 0" to terminal
-
+```
  ## Arithmetic Operations ##
  Previously, we used an operator "+" to concatenate a String with an int. However, operators can be
  used for a variety of things. Here are a few:
