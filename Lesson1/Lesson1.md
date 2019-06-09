@@ -1,4 +1,4 @@
-# Ramdroids_2019_2020
+# Lesson 1
 ## Introductions ##
 Welcome to the Ramdroids software training. This is a series of training lessons that are not meant
 to cover all the details of coding, but rather the most important bits for FTC competition in a short
