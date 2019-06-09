@@ -5,7 +5,8 @@ to cover all the details of coding, but rather the most important bits for FTC c
 amount of time. If you are interested in the finer details of coding, feel free to contact me (Eric),
 learn online yourself, or major in Computer Science in college.
 
-Thank you Nicole Martindale and Kayla Tran for the inspiration on this training course.
+Thank you Nicole Martindale, Kayla Tran, and the FRC team 3647 Millenium Falcons for the inspiration
+on this training course.
 
 Before we begin, I want to say congratulations on making the team first and foremost; it is not an
 easy task. If you put in the time and attack things with the right attitude, you will find this
