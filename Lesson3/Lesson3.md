@@ -79,7 +79,7 @@ Quick note: ```i = i + 1``` is the same as saying ```i++```, or what we know as 
 I won't be getting too much into detail about i++ vs ++i (if you're interested, feel free to look
 it up), but I would just recommend not doing something like ```int x = i++;``` because that will
 confused you. Just be a normal programmer and do ```i++;``` before you do ```int x = i``` because
-there is a difference between ```int x = i++``` and ```int x = ++i```.
+there is a difference between ```int x = i++```, ```int x = ++i```, ```int x = ++i++```, and more.
 
 ## Exercise 1 ##
 ```
@@ -93,17 +93,17 @@ What does this print?
 ## Exercise 2 ##
 Note: % is the modulus operator. It basically calculates the remainder of a number divided by another
 number. Here's some examples:
-1 % 2 = 1
-2 % 2 = 0
-3 % 2 = 1
-4 % 2 = 0
-5 % 2 = 1
-107 % 2 = 1
-107 % 100 = 7
-207 % 100 = 7
-199 % 100 = 99
+1 % 2 = 1,
+2 % 2 = 0,
+3 % 2 = 1,
+4 % 2 = 0,
+5 % 2 = 1,
+107 % 2 = 1,
+107 % 100 = 7,
+207 % 100 = 7,
+199 % 100 = 99,
 
-It's good for calculating something... Can you figure it out?
+It's good for determining something... Can you figure it out?
 
 ```
 for( int i = 0; i < 20; i++ ) {
