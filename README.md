@@ -32,10 +32,10 @@ System.out.println( "FTC is the best!" );
 In practically any programming language, there are variables that hold values of some data type.
 We use variables so that we can store certain data and refer back to them in future operations.
 Here is a list of different types of variables you can have (this is not a comprehensive list):
-*```boolean```: a data type that is either ```true``` or ```false```
-*```int```: a data type that can hold integers.
-*```double```: a data type that can hold very precise decimal values.
-*```String```: a data type that can hold letters/words/sentences. Think of it as just regular English.
+* ```boolean```: a data type that is either ```true``` or ```false```
+* ```int```: a data type that can hold integers.
+* ```double```: a data type that can hold very precise decimal values.
+* ```String```: a data type that can hold letters/words/sentences. Think of it as just regular English.
                This data type is different from the rest because it's not a primitive data type
                (not a data type built into Java), but rather a class (we'll get into them later).
 
@@ -72,10 +72,10 @@ variables into magic print tool, or "concatenating" (look up definition) variabl
  ## Arithmetic Operations ##
  Previously, we used an operator "+" to concatenate a String with an int. However, operators can be
  used for a variety of things. Here are a few:
- *```+```: operator to add numbers.
- *```-```: operator to subtract numbers.
- *```*```: operator to multiply numbers.
- *```/```: operator to divide numbers.
+ * ```+```: operator to add numbers.
+ * ```-```: operator to subtract numbers.
+ * ```*```: operator to multiply numbers.
+ * ```/```: operator to divide numbers.
 
  In action, operators are crucial to coding:
  ```
@@ -84,7 +84,7 @@ variables into magic print tool, or "concatenating" (look up definition) variabl
  int americaAge = 2019 - 1776;
 
  System.out.println( "America is " + americaAge + " years old" ); // Prints "America is 243 years old"
- 
+
  ```
  Here's something more practical to robotics:
 
