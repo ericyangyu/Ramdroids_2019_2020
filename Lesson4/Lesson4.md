@@ -155,3 +155,6 @@ x is 25
 ```
 
 In this case, x was our global variable.
+
+This concludes Lesson 4. Please read over this lesson if it did not make sense to you, this is all
+crucial to programming. If you are still confused, don't hesitate to contact me (Eric).
