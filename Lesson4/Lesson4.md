@@ -83,3 +83,75 @@ Methods are some of the most crucial constructs to programming. They assist us i
 readable code. For example, we don't have to write ```x = x * x;``` every time we want to square
 a number; we can just call the helper function ```squareNumber```. If you've ever heard of Java
 libraries, they are just archives of helper functions for you to use that someone else wrote already.
+
+You have to be careful with return values, however. If the value you return does not match
+the return type, then your program will not compile.
+
+For example:
+```
+int squareNumber( int x ) {
+    x = x * x;
+    return 55.555;
+}
+```
+
+What's wrong with this? Well, you specify a return type of int, but you try to return a type double.
+This will not compile.
+
+## Scope ##
+There is this idea of scoping in almost all programming languages. Basically, if some variable is defined
+inside some body, it will cease to exist once you exit that body. This is especially important when you
+have bodies that are nested in bodies (remember nested for loops?).
+
+Here's an example:
+```
+void test() {
+    int x = 0; // x is a variable defined outside of the while loop, so it will exist both in the while loop and outside of it
+
+    while( x == 0 ) {
+        int j = 5;
+        System.out.println( "j is " + j ); // j is defined inside the while loop, so we are still in scope
+        System.out.println( "x is " + x ); // x is defined outside
+        x++;
+    } // After exiting this while loop, j is deallocated, and will cease to exist
+
+    System.out.println( "x is " + x ); // We are still in scope for x
+    // System.out.println( "j is " + j ); will not work
+} // x goes out of scope, so x will cease to exist once we exit this method.
+```
+
+Scoping is useful because it helps keep our namespace from cluttering. If we define some variable "x"
+and it never went out of scope, then we would never be able to define a variable "x" again without
+messing with our previous values. That would mean trouble. Once we go out of scope, it's like
+clearing up your workstation so you can use some variable "x" again.
+
+## Local Variables ##
+Variables that go out of scope once you finish some code body are called ```local variables```. They
+are essentially temporary variables that you want to deallocate once you're done doing whatever
+you're doing. In this case, j and x were both local variables in the example above.
+
+## Global Variables ##
+Global variables are variables that do not go out of scope even after you finish a function. In short,
+they are defined outside of a function. As a result, they exist even after you finish a function, but
+you can still call them within your functions.
+
+Here's an example of a global variable:
+```
+int x = 5;
+
+void squareNumber() {
+    x = x * x;
+}
+
+void mainProgram() {
+    squareNumber();
+    System.out.println( "x is " + x );
+}
+```
+
+If we called ```mainProgram()```, the output would be
+```
+x is 25
+```
+
+In this case, x was our global variable.
