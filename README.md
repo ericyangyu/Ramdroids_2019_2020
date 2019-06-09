@@ -52,11 +52,12 @@ double threeFourths = 0.75;
 
 String genericStatement = "Hello World";
 String anotherOne = "Hola Mundo";
+```
 
 ## Combining Print Statements with Variables ##
 Did you know that we can print variables to terminal as well? We can do this by inputting our
 variables into magic print tool, or "concatenating" (look up definition) variables of different types
- with Strings and Strings only.
+with Strings and Strings only.
 
  Here are a few examples using variables we defined earlier:
  ```
