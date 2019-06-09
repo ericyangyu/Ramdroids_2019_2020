@@ -45,7 +45,7 @@ int squareNumber( int x ) {
 }
 ```
 
-We have a method signature ```int squareNumber( int x )````, which has method name ```squareNumber```
+We have a method signature ```int squareNumber( int x )```, which has method name ```squareNumber```
 that takes in some int ```x```, and returns a value of type ```int```.
 
 Notice how in our body, we save x equal to x times itself. This is essentially squaring it. Then,
