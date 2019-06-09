@@ -70,8 +70,8 @@ else {
 The same logic applies here as in the If-Else, in the sense that if one condition passes, all the other
 ones will be skipped. For example, in the example above, "You are 18 and allowed to vote" will be printed.
 
-How this works is that we check if ```age < 18````. Since this is clearly false, we then check if
-````age == 18```. Age is equal to 18, so we enter the "body", or the code surrounded by the ```{``` and
+How this works is that we check if ```age < 18```. Since this is clearly false, we then check if
+```age == 18```. Age is equal to 18, so we enter the "body", or the code surrounded by the ```{``` and
 ```}```. The body is the code that acts as a paragraph, and runs only if the condition it belongs to
 is satisfied.
 
