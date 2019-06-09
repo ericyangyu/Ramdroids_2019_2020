@@ -1,4 +1,4 @@
-# Lesson4
+# Lesson 4
 
 ## Methods ##
 Methods, also known as functions, are like the functions you have in math. Think of something like
