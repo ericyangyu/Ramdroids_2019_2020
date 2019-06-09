@@ -121,7 +121,7 @@ else {
 What gets printed out?
 
 ## Switch Statements ##
-Sometimes, if you have a lot of conditions to check for, if statements are the most efficient. Java
+Sometimes, if you have a lot of conditions to check for, if statements aren't the most efficient. Java
 has provided a framework for you!
 
 Here is an example of what we call a "switch statement":
