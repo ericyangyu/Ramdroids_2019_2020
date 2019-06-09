@@ -18,7 +18,7 @@ learn in any language. In java, we can print by typing ```System.out.println();`
 
 Here is a snippet of code that will print "Hello World" to the console.
 ```System.out.println( "Hello World" );```
-Notice how we place "Hello World" inside the parenthesis of some larger code. For now, treat
+Notice how we place "Hello World" inside the parentheses of some larger code. For now, treat
 "System.out.println" as a magical coding tool that takes in some input and spits it back out onto
 the console. We will analyze this more as we go along.
 
