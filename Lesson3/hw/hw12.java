@@ -34,7 +34,7 @@
 		out how to do the rest?
  */
 
-public class hw10 {
+public class hw12 {
 	public static void main( String[] args ) {
 		while( /* TODO */ ) {
 			// TODO

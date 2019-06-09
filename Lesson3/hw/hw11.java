@@ -29,7 +29,7 @@
 		You may need to do some math!
  */
 
-public class hw10 {
+public class hw11 {
 	public static void main( String[] args ) {
 			// TODO
 	}
