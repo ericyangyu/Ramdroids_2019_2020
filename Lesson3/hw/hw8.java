@@ -2,7 +2,7 @@
     hw11
 
     Your job is to print a triangle to the terminal using nested for loops. 
-		This should be a bit more difficult than drawing a rectangle. For example:
+	This should be a bit more difficult than drawing a square. For example:
 
       *  
      *** 
