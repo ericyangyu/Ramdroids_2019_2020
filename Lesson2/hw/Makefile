@@ -1,7 +1,11 @@
-Driver: Driver.class
+hw2: hw2.class
 
-Driver.class: Driver.java
-	javac Driver.java
+hw2.class: hw2.java
+	javac hw2.java
 
 clean:
 	rm -f *.class
+
+new:
+	rm -f *.class
+	javac hw2.java
