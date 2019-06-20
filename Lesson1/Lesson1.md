@@ -100,4 +100,4 @@ with Strings and Strings only.
  System.out.println( "The radius of a standard PVC pipe is " + pvcRadius );
  ```
 
- If you have any questions about this lesson, reach out to me (Eric).
+ If you have any questions about this lesson, please ask Eric.

@@ -230,5 +230,3 @@ for( int rows = 0; rows < 200; rows++ ) {
 
 Yes, this is exactly how digital photo filtering is like! If you would like to learn more about
 nested for loop constructs and their uses, feel free to chat with me (Eric).
-
-This concludes Lesson 3.

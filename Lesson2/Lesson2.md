@@ -186,4 +186,4 @@ Note: ```else``` condition is optional.
 
 What gets printed?
 
-This concludes Lesson 2. If you have any questions, please contact me (Eric).
+If you have any questions, please ask your friends or Eric.
