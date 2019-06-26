@@ -1,8 +1,12 @@
 # Lesson 1
 ## Introductions ##
-Welcome to the Ramdroids software training. This is a series of training lessons that are not meant
-to cover all the details of coding, but rather the most important bits for FTC competition in a short
-amount of time. If you are interested in the finer details of coding, feel free to contact me (Eric),
+Welcome to the Ramdroids software training. This is a series of training lessons 
+that is meant to teach you the most basic programming concepts and some Java.
+There will still be a lot lot of information that you'll have to learn on your
+own for FTC, but I'm hoping I can give you some insight on Java programming, as
+well as using git and the compilation process. 
+
+If you are interested in the finer details of coding, feel free to contact me (Eric),
 learn online yourself, or major in Computer Science in college.
 
 Thank you Nicole Martindale, Kayla Tran, and the FRC team 3647 Millenium Falcons for the inspiration
