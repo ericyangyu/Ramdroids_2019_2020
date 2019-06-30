@@ -22,6 +22,8 @@ public class hw2 {
 		// TODO: Create your if logic here. Assume "power" is your power level.
 		// hint: to check if power is 100-299, your logic is like how you say it out loud.
 		// You are between 100 and 299, or in other words, greater than 100 and less than 299.
+		
+		System.out.println( "THIS SHOULD DISPLAY TO CONSOLE!" );
 	}
 }
 
