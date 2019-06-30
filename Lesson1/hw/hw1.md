@@ -30,4 +30,4 @@ int y = 10;
 int z = x * y * x * y;
 ```
 What is the value of z?
-z=-361,000,000
+z=-3.61 x 10^7
