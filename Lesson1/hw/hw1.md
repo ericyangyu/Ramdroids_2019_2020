@@ -11,6 +11,8 @@ int z = x + y;
 ```
 What is the value of z?
 
+z = 5
+
 ## Exercise 2
 ```
 int x = 700 + (500 * y);
@@ -21,6 +23,8 @@ int z = x - y;
 What is the value of z?
 (This is actually a trick question, this will not compile because x calls some
  variable y, which is not defined until the next line)
+ 
+ z = 7
 
 ## Exercise 3
 ```
@@ -30,3 +34,5 @@ int y = 10;
 int z = x * y * x * y;
 ```
 What is the value of z?
+
+z = 900
