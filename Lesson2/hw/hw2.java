@@ -16,25 +16,25 @@ import java.util.*;
 
 public class hw2 {
 
-	private static int power = 8999;
+	private static int power = 300;
 
 	public static void main( String[] args ) {
 		// TODO: Create your if logic here. Assume "power" is your power level.
 		// hint: to check if power is 100-299, your logic is like how you say it out loud.
 		// You are between 100 and 299, or in other words, greater than 100 and less than 299.
-		if( power <= 100 ) {
+		if( power < 100 ) {
 		    System.out.println( "pathetic" );
 }
-		else if( power>100 && power<=299 ) {
+		else if( power >= 100 && power < 300 ) {
 		    System.out.println( "heckers" );
 }
-		else if( power>300 && power<=799 ) {
+		else if( power >= 300 && power < 800 ) {
 			System.out.println( "getting powerful" );
 }
-		else if( power>800 && power<=2999 ) {
+		else if( power >= 800 && power < 3000 ) {
 			System.out.println( "oof" );
 }
-		else if( power>3000 && power<=9000 ) {
+		else if( power >= 3000 && power <= 9000 ) {
 			System.out.println( "youch" );
 }
 		else {
