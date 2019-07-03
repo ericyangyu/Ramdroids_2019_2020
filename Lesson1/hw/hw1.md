@@ -10,7 +10,7 @@ int y = 7000;
 int z = x + y;
 ```
 What is the value of z?
-
+z = 13999
 ## Exercise 2
 ```
 int x = 700 + (500 * y);
@@ -30,3 +30,4 @@ int y = 10;
 int z = x * y * x * y;
 ```
 What is the value of z?
+z=361000000
