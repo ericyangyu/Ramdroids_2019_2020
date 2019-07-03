@@ -89,7 +89,16 @@ for( int i = 0; i < 10; i++ ) {
 }
 ```
 What does this print?
-
+0 
+1
+2
+3
+4
+5
+6
+7
+8
+9
 ## Exercise 2 ##
 Note: % is the modulus operator. It basically calculates the remainder of a number divided by another
 number. Here's some examples:
@@ -114,7 +123,43 @@ for( int i = 0; i < 20; i++ ) {
 }
 ```
 What does this print?
+1
 
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+18
+
+19
 ## While Loop ##
 Here is another type of looping construct. "While" does something so long as some input condition is true.
 It is similar to a for loop.

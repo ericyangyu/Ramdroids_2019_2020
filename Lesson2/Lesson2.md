@@ -101,6 +101,7 @@ else {
 ```
 What gets printed out?
 
+You are a junior 
 ## Exercise 2 ##
 ```
 int x = 100;
@@ -119,7 +120,7 @@ else {
 }
 ```
 What gets printed out?
-
+3
 ## Switch Statements ##
 Sometimes, if you have a lot of conditions to check for, if statements aren't the most efficient. Java
 has provided a framework for you!
@@ -185,5 +186,5 @@ else if( americanCitizen == false || age == 16 ) {
 Note: ```else``` condition is optional.
 
 What gets printed?
-
+You can't vote. 
 If you have any questions, please ask your friends or Eric.

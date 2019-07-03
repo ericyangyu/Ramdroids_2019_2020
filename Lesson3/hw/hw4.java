@@ -29,8 +29,15 @@
 	You may need to do some math!
  */
 
-public class hw11 {
+public class hw4 {
 	public static void main( String[] args ) {
 			// TODO
+	    for( int x = 1; x < 4; x++ ) {
+	        if (x == 1)
+	        	System.out.println( "  *  " );
+	        if (x == 2)
+	        	System.out.println( " ***" );
+	        if (x == 3)
+	        	System.out.println( "*****" );
 	}
-}
+}}
