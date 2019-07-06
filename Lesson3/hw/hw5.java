@@ -34,12 +34,18 @@
 	out how to do the rest?
  */
 
-public class hw12 {
+public class hw5 {
 	public static void main( String[] args ) {
-		while( /* TODO */ ) {
-			// TODO
-			while( /* TODO */ ) {
-				//TODO
+		int i = 0;
+		while(i < 1) {
+			System.out.println("   * ");
+			System.out.println("  *** ");
+			System.out.println(" ***** ");
+			i++;
+			while(i < 2 ) {
+				System.out.println("  *** ");
+				System.out.println("   * ");
+				i++;
 			}
 		}
 		// you may want to consider having another set of nested while loops to draw the inverted triangle

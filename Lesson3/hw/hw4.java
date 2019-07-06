@@ -32,12 +32,15 @@
 public class hw4 {
 	public static void main( String[] args ) {
 			// TODO
-	    for( int x = 1; x < 4; x++ ) {
-	        if (x == 1)
-	        	System.out.println( "  *  " );
-	        if (x == 2)
-	        	System.out.println( " ***" );
-	        if (x == 3)
-	        	System.out.println( "*****" );
+		for( int i = 1; i < 2; i++ ) {
+
+		    System.out.println( "   *  ");
+
+		    for( int n = 1; n < 2; n++ ) {
+		        System.out.println( "  *** " );
+		        System.out.println( " ***** "  );
+		    }
+
+		    System.out.println();
 	}
 }}
