@@ -31,14 +31,14 @@
 
 public class hw4 {
 	public static void main( String[] args ) {
-		 int rows = 3, k = 0;
-	        for(int i = 1; i <= rows; ++i, k = 0) {
-	            for(int space = 1; space <= rows - i; ++space) {
+		 int lines = 3, y = 0;
+	        for(int i = 1; i <= lines; ++i, y = 0) {
+	            for(int space = 1; space <= lines - i; ++space) {
 	                System.out.print("  ");
 	            }
-	            while(k != 2 * i - 1) {
+	            while(y != 2 * i - 1) {
 	                System.out.print("* ");
-	                ++k;
+	                ++y;
 	            }
 	            System.out.println();
 	        }
