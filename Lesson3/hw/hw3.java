@@ -20,5 +20,7 @@
 public class hw9 {
 	public static void main( String[] args ) {
 			// TODO
+		
+		for (int i =0; )
 	}
 }
