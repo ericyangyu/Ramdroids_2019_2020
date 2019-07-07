@@ -45,7 +45,7 @@ public class hw5 {
 			while(i<1) {
 				System.out.println(" ***");
 				System.out.println("  *");
-				;
+				i++;
 			
 		
 	
