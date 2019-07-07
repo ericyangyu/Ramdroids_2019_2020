@@ -8,7 +8,7 @@
     *****
     *****
     *****
-
+.
 
     should be printed if we want to print a 5x5 square.mv
 
