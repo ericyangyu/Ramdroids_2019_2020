@@ -41,8 +41,7 @@ public class hw5 {
 			System.out.println("   * ");
 			System.out.println("  *** ");
 			System.out.println(" ***** ");
-			i++;
-			while(i < 2 ) {
+			while(i < 1 ) {
 				System.out.println("  *** ");
 				System.out.println("   * ");
 				i++;
