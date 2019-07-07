@@ -34,44 +34,12 @@
 	out how to do the rest?
  */
 
-public class hw12 {
+public class hw5 {
 	public static void main( String[] args ) {
-		int x = 0;
-		while( x = 0 ) {
-			 int rows = 5, k = 0;
-		        for(int i = 1; i <= rows; ++i, k = 0) {
-		            for(int space = 1; space <= rows - i; ++space) {
-		                System.out.print("  ");
-		            }
-		            while(k != 2 * i - 1) {
-		                System.out.print("*");
-		                ++k;
-		            }
-		            System.out.println();
-		        x=1;
-			while( x==1 ) {
-				int rows2 = 5, k = 0, count = 0, count1 = 0;
-		        for(int i = 1; i <= rows2; ++i) {
-		            for(int space = 1; space <= rows2 - i; ++space) {
-		                System.out.print("  ");
-		                ++count;
-		            }
-		            while(k != 2 * i - 1) {
-		                if (count <= rows2 - 1) {
-		                    System.out.print((i + k) + " ");
-		                    ++count;
-		                }
-		                else {
-		                    ++count1;
-		                    System.out.print((i + k - 2 * count1) + " ");
-		                }
-		                ++k;
-		            }
-		            count1 = count = k = 0;
-		            System.out.println();
-		        }
-		    }
-
+		while( /* TODO */ ) {
+			// TODO
+			while( /* TODO */ ) {
+				//TODO
 			}
 		}
 		// you may want to consider having another set of nested while loops to draw the inverted triangle
