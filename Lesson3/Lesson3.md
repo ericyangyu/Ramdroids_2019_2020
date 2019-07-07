@@ -89,7 +89,7 @@ for( int i = 0; i < 10; i++ ) {
 }
 ```
 What does this print?
-
+i
 ## Exercise 2 ##
 Note: % is the modulus operator. It basically calculates the remainder of a number divided by another
 number. Here's some examples:
