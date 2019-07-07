@@ -16,7 +16,7 @@ import java.util.*;
 
 public class hw2 {
 
-	private static int power = 8999;
+	private static int power = 9000;
 
 	public static void main( String[] args ) {
 		// TODO: Create your if logic here. Assume "power" is your power level.
@@ -26,20 +26,20 @@ if(power<100) {
 	System.out.println("pathetic");
 	}
 else if(power>=100 && power<300) {
-	System.out.println("heckers");
+System.out.println("heckers");
 }
-else if(power>=300 && power<800) {
+	else if(power>=300 && power<800) {
 	System.out.println("gettin powerful");
 	}
-else if(power>=800 && power<3000) {
-	System.out.println("oof");
-}
-else if(power>=3000 && power<9000) {
-System.out.println("youch");
-}
-else {
-	System.out.println("it's over 9000!!!");
-}
+		else if(power>=800 && power<3000) {
+		System.out.println("oof");
+		}
+			else if(power>=3000 && power<=9000) {
+			System.out.println("youch");
+			}
+				else {
+				System.out.println("it's over 9000!!!");
+				}
 	}
 }
 
