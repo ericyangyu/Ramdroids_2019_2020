@@ -29,8 +29,20 @@
 	You may need to do some math!
  */
 
-public class hw11 {
+public class hw4 {
 	public static void main( String[] args ) {
 			// TODO
+		for( int i = 1; i < 2; i++ ) {
+
+		    System.out.println( "  *" );
+
+		    for( int j=1; j < 2; j++ ) {
+		        System.out.println( " ***" );
+		        System.out.println( "*****");
+		    }
+
+		    System.out.println();
+
+		}
 	}
 }

@@ -22,6 +22,21 @@ public class hw2 {
 		// TODO: Create your if logic here. Assume "power" is your power level.
 		// hint: to check if power is 100-299, your logic is like how you say it out loud.
 		// You are between 100 and 299, or in other words, greater than 100 and less than 299.
+if(power<100) {
+	System.out.println("pathetic");
+	}
+else if(power>=100 && power<300) {
+	System.out.println("heckers");
+}
+else if(power>=300 && power<800) {
+	System.out.println("gettin powerful");
+	}
+else if(power>=800 && power<3000);
+System.out.println("youch");
+}
+	else {
+		System.out.println("it's over 9000!!!");
 	}
 }
+
 

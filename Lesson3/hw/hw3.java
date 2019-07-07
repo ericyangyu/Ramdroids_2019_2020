@@ -17,8 +17,14 @@
     the "main" function
  */
 
-public class hw9 {
+public class hw3 {
 	public static void main( String[] args ) {
 			// TODO
+		for( int x=0; x<5; x++) {
+			System.out.println("*****");
+		}
+		
+		System.out.println(); // Skip a line
+		
 	}
 }
