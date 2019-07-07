@@ -25,13 +25,13 @@ public class hw2 {
 if(power<100) {
 	System.out.println("pathetic");
 	}
-else if(power>=100 && power<300) {
+else if(power>=100 && power<=299) {
 System.out.println("heckers");
 }
-	else if(power>=300 && power<800) {
+	else if(power>=300 && power<=799) {
 	System.out.println("gettin powerful");
 	}
-		else if(power>=800 && power<3000) {
+		else if(power>=800 && power<=2999) {
 		System.out.println("oof");
 		}
 			else if(power>=3000 && power<=9000) {
