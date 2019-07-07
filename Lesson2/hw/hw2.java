@@ -32,11 +32,11 @@ else if(power>=300 && power<800) {
 	System.out.println("gettin powerful");
 	}
 else if(power>=800 && power<3000);
-System.out.println("youch");
+	System.out.println("youch");
 }
-	else {
-		System.out.println("it's over 9000!!!");
-	}
+else {
+	System.out.println("it's over 9000!!!");
+}
 }
 
 
