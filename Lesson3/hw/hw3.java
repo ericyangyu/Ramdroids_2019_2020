@@ -19,11 +19,24 @@
 
 public class hw3 {
 	public static void main( String[] args ) {
-			// TODO
 	    for( int x = 0; x < 5; x++ ) {
-	        System.out.println( "*****" );
-	    }
-
+	        System.out.print( "*" );
+	        }
 	    System.out.println(); // Skip a line
+	    for( int x = 0; x < 5; x++ ) {
+	        System.out.print( "*" );
+	        }
+	    System.out.println();
+	    for( int x = 0; x < 5; x++ ) {
+	        System.out.print( "*" );
+	        }
+	    System.out.println();
+	    for( int x = 0; x < 5; x++ ) {
+	        System.out.print( "*" );
+	        }
+	    System.out.println();
+	    for( int x = 0; x < 5; x++ ) {
+	        System.out.print( "*" );
+	        }
+	    }
 	}
-}
