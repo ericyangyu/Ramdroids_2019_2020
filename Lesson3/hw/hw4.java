@@ -41,12 +41,6 @@ public class hw4 {
 	            System.out.print("*");
 	            	y++;
 	         }
-		for(int a = 0; a <= 2; a++, y = 0) {
-			for(int z = 0; z <= 2 - a; z++) 
-			{	System.out.print(" ");
-			}
-			 System.out.println();
 	    }
-		}
 	}
 }
