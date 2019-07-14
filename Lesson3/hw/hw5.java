@@ -36,17 +36,27 @@
 
 public class hw5 {
 	public static void main( String[] args ) {
-		int i = 0;
-		while(i < 1) {
-			System.out.println("   * ");
-			System.out.println("  *** ");
-			System.out.println(" ***** ");
-			while(i < 1 ) {
-				System.out.println("  *** ");
-				System.out.println("   * ");
-				i++;
+		int y = 0;
+		for(int x = 0; x <= 2; x++, y = 0) {
+			for(int z = 0; z <= 2 - x; z++) {	
+				System.out.print(" ");
 			}
+			 while(y != 2 * x + 1) {
+	            System.out.print("*");
+	            	y++;
+			 }
+			 System.out.println("");
 		}
-		// you may want to consider having another set of nested while loops to draw the inverted triangle
+		int c = 0;
+		for(int a = 1; a >= 0; a--, c = 0) {
+			 for(int b = 0; b <= 2 - a; b++) {	
+				System.out.print(" ");
+			}	
+			 while(c != 2 * a + 1) {
+		            System.out.print("*");
+		            	c++;
+			 }
+			 System.out.println("");
+		}
 	}
 }
