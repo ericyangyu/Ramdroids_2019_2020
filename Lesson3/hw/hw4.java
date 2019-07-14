@@ -31,9 +31,9 @@
 
 public class hw4 {
 	public static void main( String[] args ) {
-		int y = 0;
-		for(int x = 0; x <= 2; x++, y = 0) {
-			for(int z = 0; z <= 2 - x; z++) {	
+		int y = 0, height = 2;
+		for(int x = 0; x <= height; x++, y = 0) {
+			for(int z = 0; z <= height - x; z++) {	
 				System.out.print(" ");
 			}
 			 while(y != 2 * x + 1) {
