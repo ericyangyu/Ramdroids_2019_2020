@@ -32,17 +32,21 @@
 public class hw4 {
 	public static void main( String[] args ) {
 		int y = 0;
-		for(int x = 0; x <= 2; ++x, y = 0) {
-			for(int z = 0; z <= 2 - x; ++z) 
+		for(int x = 0; x <= 2; x++, y = 0) {
+			for(int z = 0; z <= 2 - x; z++) 
 			{	System.out.print(" ");
 			}
 			 while(y != 2 * x + 1) 
 			 {
 	            System.out.print("*");
-	            	++y;
+	            	y++;
 	         }
+		for(int a = 0; a <= 2; a++, y = 0) {
+			for(int z = 0; z <= 2 - a; z++) 
+			{	System.out.print(" ");
+			}
 			 System.out.println();
 	    }
+		}
 	}
-	
 }
