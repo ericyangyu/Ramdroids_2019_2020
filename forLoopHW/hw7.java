@@ -18,7 +18,13 @@ public class hw7 {
 		// 2
 		// 1
 		int[] arr = { 1, 2, 3, 4, 5 };
-
+		int x= 6 ;
+	    int y = 4;
+			while (x>1) {
+	            System.out.print(" " + arr[y]);
+	            x--;
+	            y--;
+		}
 	}
 }
 
