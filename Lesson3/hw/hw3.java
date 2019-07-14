@@ -19,24 +19,12 @@
 
 public class hw3 {
 	public static void main( String[] args ) {
-	    for( int x = 0; x < 5; x++ ) {
-	        System.out.print( "*" );
-	        }
-	    System.out.println(); // Skip a line
-	    for( int x = 0; x < 5; x++ ) {
-	        System.out.print( "*" );
-	        }
-	    System.out.println();
-	    for( int x = 0; x < 5; x++ ) {
-	        System.out.print( "*" );
-	        }
-	    System.out.println();
-	    for( int x = 0; x < 5; x++ ) {
-	        System.out.print( "*" );
-	        }
-	    System.out.println();
-	    for( int x = 0; x < 5; x++ ) {
-	        System.out.print( "*" );
-	        }
-	    }
+	int rows = 5, columns = 5;
+	for (int x = 0;  x < rows; x++) {
+		for (int y = 0; y < columns; y++) {
+			System.out.print("*");
+		}
+			System.out.println("");
 	}
+	}
+}

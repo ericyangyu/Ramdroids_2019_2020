@@ -31,16 +31,18 @@
 
 public class hw4 {
 	public static void main( String[] args ) {
-			// TODO
-		for( int i = 1; i < 2; i++ ) {
-
-		    System.out.println( "   *  ");
-
-		    for( int n = 1; n < 2; n++ ) {
-		        System.out.println( "  *** " );
-		        System.out.println( " ***** "  );
-		    }
-
-		    System.out.println();
+		int y = 0;
+		for(int x = 0; x <= 2; ++x, y = 0) {
+			for(int z = 0; z <= 2 - x; ++z) 
+			{	System.out.print(" ");
+			}
+			 while(y != 2 * x + 1) 
+			 {
+	            System.out.print("*");
+	            	++y;
+	         }
+			 System.out.println();
+	    }
 	}
-}}
+	
+}
