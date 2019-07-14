@@ -40,7 +40,10 @@ public class hw4 {
 	            System.out.print("*");
 	            	y++;
 	         }
-			 System.out.println("");
-	    }	
+			for(int a = 0; a <= 2 - x; a++) {	
+				System.out.print(" ");
+			}	
+			System.out.println("");
+		}
 	}
 }
