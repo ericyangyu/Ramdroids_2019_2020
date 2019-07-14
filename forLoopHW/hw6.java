@@ -10,15 +10,18 @@ public class hw6 {
 		// No hardcoding, and either add a space after each print or go to a new 
 		// line
 		// Output should look like: 1 2 3 4 5 
-
 		// or 
-
 		// 1
 		// 2
 		// 3
 		// 4
 		// 5
-		int[] arr = { 1, 2, 3, 4, 5 };
+		int x =0;
+		while (x<5) {
+            System.out.print(" " + arr[x]);
+            x++;
+
+		}
 	}
 }
 
