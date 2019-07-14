@@ -32,15 +32,26 @@
 public class hw4 {
 	public static void main( String[] args ) {
 			// TODO
-		for( int start = 0; start < 3; start++ ) {
-			for( int body = 0; body < 1; body++) {
-				System.out.print(" "); System.out.print(" ");System.out.print("*"); System.out.print(" ");System.out.print(" ");
-		    
-		    
-		    }
-
-		    System.out.println();
-
-		}
+		int y= 0;
+		for( int start = 0; start < 3; start++, y= 0 ) {
+			for(int z=0; z<3-start; z++) {
+				System.out.print(" ");
+				}
+				while(y !=2 * start+1)
+					{
+					System.out.print("*");
+				++y;
+					}
+				for(int end=0; end<3-start; end++) {
+					System.out.print(" ");
+				}
+			
+		     System.out.println();
+		}    
 	}
 }
+		   
+
+	
+
+
