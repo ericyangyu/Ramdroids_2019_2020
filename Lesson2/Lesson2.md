@@ -175,7 +175,7 @@ int age = 16;
 if( americanCitizen == true && age >= 18 ) {
     System.out.println( "You can vote. Woo!" );
 }
-else if( americanCitizen == false && age >= ) {
+else if( americanCitizen == false && age >= 18 ) {
     System.out.println( "You can't vote." );
 }
 else if( americanCitizen == false || age == 16 ) {
