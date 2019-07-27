@@ -1,5 +1,5 @@
 /*
-    hw11
+    hw4
 
     Your job is to print a triangle to the terminal using nested for loops. 
 	This should be a bit more difficult than drawing a square. For example:
@@ -29,8 +29,23 @@
 	You may need to do some math!
  */
 
-public class hw11 {
+public class hw4 {
 	public static void main( String[] args ) {
 			// TODO
+		int height =3;
+		
+		for (int i=1; i<height*2; i += 2)
+		{
+		    for (int k=0; k < (2 - i / 2); k++)
+		    {
+		        System.out.print(" ");
+		    }
+		    for (int j=0; j<i; j++)
+		    {
+		        System.out.print("*");
+		    }
+		    System.out.println("");
+		}
 	}
 }
+
