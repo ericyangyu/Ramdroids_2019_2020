@@ -36,27 +36,35 @@
 
 public class hw5 {
 	public static void main( String[] args ) {
-		int y = 0;
-		for(int x = 0; x <= 2; x++, y = 0) {
-			for(int z = 0; z <= 2 - x; z++) {	
+		int y = 0, x= 0, z = 0;
+		while( x <= 2) {
+			y = 0;
+			z = 0;
+			while( z <= 2 - x) {	
 				System.out.print(" ");
+				z++;	
 			}
 			 while(y != 2 * x + 1) {
 	            System.out.print("*");
 	            	y++;
 			 }
 			 System.out.println("");
+			 x++;
 		}
-		int c = 0;
-		for(int a = 1; a >= 0; a--, c = 0) {
-			 for(int b = 0; b <= 2 - a; b++) {	
+		int c = 0, a = 1, b = 0;
+		while( a >= 0) {
+			c = 0;
+			b = 0;
+			while( b <= 2 - a) {	
 				System.out.print(" ");
+				b++;
 			}	
 			 while(c != 2 * a + 1) {
-		            System.out.print("*");
-		            	c++;
+				 System.out.print("*");
+		         c++;
 			 }
 			 System.out.println("");
+			 a--;
 		}
 	}
 }
