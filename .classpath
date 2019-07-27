@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="forLoopHW"/>
+	<classpathentry kind="src" path="Lesson2/hw"/>
+	<classpathentry kind="src" path="Lesson3/hw"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
