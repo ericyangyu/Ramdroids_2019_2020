@@ -36,21 +36,24 @@
 
 public class hw5 {
 	public static void main( String[] args ) {
-		int i=0;
-		while( i<1 ) {
-			System.out.println("  *");
-			System.out.println(" ***");
-			System.out.println("*****");
-			;
-			while(i<1) {
-				System.out.println(" ***");
-				System.out.println("  *");
-				i++;
-			
-		
-	
-
+		int start= 0, y= 0, z= 0, end= 0;
+		while(start <= 2){
+			while(z <= 2-start) {
+				System.out.print(" ");
+				z++;
 			}
-		}
-			}
+				while(y <=2 * start+1) {
+					System.out.print("*");
+					y++;
+				}
+					while(end <= 2-start) {
+						System.out.print(" ");
+						end++;	
+					}
+		     System.out.println();
+		   start++;
+		}    
+	}
 }
+			
+
