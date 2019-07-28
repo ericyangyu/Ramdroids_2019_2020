@@ -1,5 +1,5 @@
 /*
-    hw12
+    hw5
 
     Your job is to print a diamond to the terminal using nested while loops. 
 		This should be a bit more difficult than drawing a triangle. For example:
@@ -34,14 +34,32 @@
 	out how to do the rest?
  */
 
-public class hw12 {
+public class hw5 {
 	public static void main( String[] args ) {
-		while( /* TODO */ ) {
-			// TODO
-			while( /* TODO */ ) {
-				//TODO
-			}
+		
+		for (int i=1; i<6; i += 2)
+		{
+		    for (int k=0; k < (2 - i / 2); k++)
+		    {
+		        System.out.print(" ");
+		    }
+		    for (int j=0; j<i; j++)
+		    {
+		        System.out.print("*");
+		    }
+		    System.out.println("");
 		}
-		// you may want to consider having another set of nested while loops to draw the inverted triangle
+		for (int i=3; i>0; i -= 2)
+		{
+		    for (int k=0; k < (2 - i / 2); k++)
+		    {
+		        System.out.print(" ");
+		    }
+		    for (int j=0; j<i; j++)
+		    {
+		        System.out.print("*");
+		    }
+		    System.out.println("");
+		}
 	}
 }
