@@ -32,16 +32,55 @@
 	What makes this different though is you may only implement this using
 	nested while loops. A skeleton of the code is given below. Can you figure
 	out how to do the rest?
+
+  System.out.print( " " );
+  System.out.print( "*" );
+  System.out.println();
  */
 
-public class hw12 {
+public class hw5 {
+
+  public static int height = 200;
+
 	public static void main( String[] args ) {
-		while( /* TODO */ ) {
-			// TODO
-			while( /* TODO */ ) {
-				//TODO
-			}
+    int row = 0;
+    int spaces = height / 2;
+    int stars = 1;
+    boolean goReverse = false;
+    // Outer loop to iterate through each row
+		while( row < height ) {
+      // Draw out each row
+      //ss*ss
+      /*
+         loop the spaces (ss)
+         loop the stars (*)
+         loop the spaces(ss)
+       */
+      for( int i = 0; i < spaces; i++ ) {
+        System.out.print( " " );
+      }
+      for( int i = 0; i < stars; i++ ) {
+        System.out.print( "*" );
+      }
+      for( int i = 0; i < spaces; i++ ) {
+        System.out.print( " " );
+      }
+      // Only run once
+      if( spaces == 0 ) {
+        goReverse = true;
+      }
+
+      // Always one of them will run
+      if( goReverse == true ) {
+        spaces++;
+        stars -= 2;
+      }
+      else {
+        spaces--;
+        stars += 2;
+      }
+      System.out.println();
+      row++;
 		}
-		// you may want to consider having another set of nested while loops to draw the inverted triangle
 	}
 }
